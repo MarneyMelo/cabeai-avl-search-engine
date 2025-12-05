@@ -1,0 +1,16 @@
+# diretorios de compilação
+/bin/*
+/obj/*
+
+# não ignora gitkeep
+!bin/.gitkeep
+!obj/.gitkeep
+
+# arquivos de objeto e executáveis
+*.o
+*.out
+
+# arquivos de backup e de editores
+*.swp
+*~
+.vscode/
