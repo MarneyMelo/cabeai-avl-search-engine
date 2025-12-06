@@ -6,7 +6,11 @@ CXXFLAGS = -std=c++11 -Wall -Iinclude
 EXECUTABLE = bin/tp3.out
 
 # adicionar novos arquivos
-SOURCES = src/main.cpp
+SOURCES = src/main.cpp \
+		  src/endereco.cpp \
+		  src/indicePalavras.cpp \
+		  src/logradouro.cpp \
+		  src/consulta.cpp
 
 # gera os nomes dos arquivos de objeto (.o) a partir da lista SOURCES
 OBJECTS = $(SOURCES:src/%.cpp=obj/%.o)
